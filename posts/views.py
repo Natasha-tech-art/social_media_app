@@ -1,6 +1,10 @@
 from rest_framework import generics
 from .models import Post
 from .serializers import PostSerializer
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'home.html')
 
 
 class PostListCreateView(generics.ListCreateAPIView):
