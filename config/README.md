@@ -1,6 +1,6 @@
 # Social Media API
 
-A RESTful Social Media API built with **Django** and **Django REST Framework (DRF)**. This project provides user authentication, profile management, and post management functionalities for a social media platform.
+A Restful Social Media API built with **Django** and **Django REST Framework (DRF)**. This project provides user authentication, profile management, and post management functionalities for a social media platform.
 
 ---
 
@@ -91,37 +91,6 @@ Open your browser and navigate to:
 ```text
 http://127.0.0.1:8000/
 ```
-
----
-
-##  Authentication Endpoints
-
-### Login
-
-**POST**
-
-```http
-/api/login/
-```
-
-Request Body:
-
-```json
-{
-  "username": "john",
-  "password": "password123"
-}
-```
-
-Response:
-
-```json
-{
-  "refresh": "refresh_token",
-  "access": "access_token"
-}
-```
-
 
 ---
 
