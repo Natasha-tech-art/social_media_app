@@ -1,7 +1,7 @@
 # Social Media API
 
 A Restful Social Media API built with **Django** and **Django REST Framework (DRF)**. This project provides user authentication, profile management, and post management functionalities for a social media platform.
-
+ 
 ---
 
 ##  Features
